@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 // mongoose.set('strictQuery', true);
-const mongoURI="mongodb://0.0.0.0:27017/deadline"
+const mongoURI="mongodb://mongodb:27017/deadline"
 const connectMongo=async()=>{
    try {
     await mongoose.connect(mongoURI)
